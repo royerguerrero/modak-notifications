@@ -134,7 +134,7 @@ def test_notification_marketing_rate_limit():
                     body='Test Body',
                     kind=NotificationTypes.MARKETING.value,
                     attachments=[],
-                    sended_at=datetime.now() - timedelta(seconds=10)
+                    sended_at=datetime.now() - timedelta(minutes=60)
                 ),
                 Notification(
                     id=Notification.next_id(),
@@ -143,7 +143,7 @@ def test_notification_marketing_rate_limit():
                     body='Test Body',
                     kind=NotificationTypes.MARKETING.value,
                     attachments=[],
-                    sended_at=datetime.now() - timedelta(seconds=10)
+                    sended_at=datetime.now() - timedelta(minutes=90)
                 ),
             ]
         )
