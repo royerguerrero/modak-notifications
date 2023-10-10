@@ -26,4 +26,7 @@ class QueryResponse:
 
     @property
     def has_errors(self) -> bool:
+        """
+        Returns True if there are any errors in the response, False otherwise.
+        """
         return len(self.errors) > 0
