@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+__init__.pyc
+__init__.pyo
+
+# Virtual Environment
+venv/
+.env/
+env/
+env.bak/
+venv.bak/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and databases
+*.log
+*.sqlite3
+db.sqlite3
+
+# Editor-specific files
+*.swp
+.DS_Store
+
